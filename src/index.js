@@ -1,22 +1,6 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+export FOB from './components/FOB'
+export Center from './components/Center'
+export CircularButton from './components/CircularButton'
+export Checkbox from './components/Checkbox'
+export RoundButton from './components/RoundButton'
+export Toast from './components/Toast'
