@@ -14,6 +14,12 @@ export default styled('button')({
   outline: 'none',
   userSelect: 'none',
   boxShadow: '0 2px 4px 0 rgba(0,0,0,0.10)',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  '& svg': {
+    width: '100%'
+  },
   '&:hover': {
     transform: 'scale(1)',
     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08)',
